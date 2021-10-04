@@ -1,15 +1,3 @@
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
-<h1 class="text-9xl">HALLO</h1>
+<div class="pt-14">
+    <h1>Hallo</h1>
+</div>
