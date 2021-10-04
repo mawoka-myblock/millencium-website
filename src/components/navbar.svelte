@@ -12,7 +12,7 @@
 </script>
 
 <nav
-	class="w-screen px-4 lg:px-10 py-2 flex flex-col lg:flex-row lg:items-center fixed navbar shadow-md"
+	class="w-screen px-4 lg:px-10 py-2 flex flex-col lg:flex-row lg:items-center fixed navbar shadow-md z-50"
 >
 	<!-- Our logo and button -->
 	<section class="w-full lg:w-max flex justify-between">

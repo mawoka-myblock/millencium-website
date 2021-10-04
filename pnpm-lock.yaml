@@ -15,6 +15,7 @@ specifiers:
   prettier-plugin-svelte: ^2.4.0
   svelte: ^3.42.6
   svelte-preprocess: ^4.9.5
+  swiper: ^7.0.8
   tailwindcss: ^2.2.16
 
 dependencies:
@@ -34,6 +35,7 @@ devDependencies:
   prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.43.1
   svelte: 3.43.1
   svelte-preprocess: 4.9.8_2bf941c443a586a06749deb6ee3aed24
+  swiper: 7.0.8
   tailwindcss: 2.2.16_d90402d1bb3b165c9c83046beac13a8b
 
 packages:
@@ -675,6 +677,12 @@ packages:
       domelementtype: 2.2.0
       domhandler: 4.2.2
       entities: 2.2.0
+    dev: true
+
+  /dom7/4.0.0:
+    resolution: {integrity: sha512-xOJ0LAHFwktyj8Xljz4R2wzRI+Y9mR0plkMP0WlqtwqAkqn/vbdAyRifiW/w8mXe17LGktntcAwsQ5fKVDBNYg==}
+    dependencies:
+      ssr-window: 4.0.0
     dev: true
 
   /domelementtype/2.2.0:
@@ -2136,6 +2144,10 @@ packages:
     resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}
     dev: true
 
+  /ssr-window/4.0.0:
+    resolution: {integrity: sha512-qCg6wJNeGNTVcPK2KFNfwtHU1gA3UZDZdxogu+Ys5+Ue5PMOENxUb7sscpAWWo4mWOBkJRCwQ50IlyA7qZ0hxw==}
+    dev: true
+
   /stable/0.1.8:
     resolution: {integrity: sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==}
     dev: true
@@ -2270,6 +2282,15 @@ packages:
       csso: 4.2.0
       nanocolors: 0.1.12
       stable: 0.1.8
+    dev: true
+
+  /swiper/7.0.8:
+    resolution: {integrity: sha512-1IpWjHam98eTNiysi9MauvPHdLgrLesSYGd7JXvQEJkvW/NvI9gogMfRfbv+7jCK3+nIWuCpVnJmKCOBtJi4JA==}
+    engines: {node: '>= 4.7.0'}
+    requiresBuild: true
+    dependencies:
+      dom7: 4.0.0
+      ssr-window: 4.0.0
     dev: true
 
   /table/6.7.2:

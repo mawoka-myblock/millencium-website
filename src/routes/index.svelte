@@ -3,6 +3,7 @@
 	import Atropos from 'atropos';
 	import JustBackground from '../assets/JustBackground.png';
 	import Logo from '../assets/LogoNoBackground-CuttedToContent.png';
+	import ImageCarousel from '../components/ImageCarousel.svelte';
 </script>
 
 <div class="pt-16 lg:pt-24">
@@ -26,5 +27,11 @@
             <img src={Logo} alt="Logo" class="rounded-lg justify-center" />
         </div>
 		
+	</section>
+
+    <section>
+		<div class="z-0">
+			<ImageCarousel />
+		</div>
 	</section>
 </div>
