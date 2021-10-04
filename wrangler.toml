@@ -1,0 +1,9 @@
+name = "millencium-website"
+type = "webpack"
+route = ''
+account_id = '5918227f6e841f8ab2c6af0a8f2e5355'
+zone_id = '165329ea5536b2a57b9ff4eeb90ab703'
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+site = {bucket = "./build",entry-point = "./workers-site"}
