@@ -2,11 +2,10 @@
 	import 'atropos/css';
 	import Atropos from 'atropos';
 	import JustBackground from '../assets/JustBackground.png';
-	import Logo from '../assets/LogoNoBG.png';
+	import Logo from '../assets/LogoNoBackground-CuttedToContent.png';
 </script>
 
 <div class="pt-16 lg:pt-24">
-
 	<!-- <div class="atropos my-atropos" id=".my-atropos">
 		<div class="atropos-scale">
 			<div class="atropos-rotate">
@@ -17,5 +16,15 @@
 			</div>
 		</div>
 	</div> -->
-    <h1 class="text-center text-3xl">Millencium</h1>
+	<section>
+		<h1
+			class="text-center text-3xl text-red-600 hover:text-red-800 transition duration-200 font-bold"
+		>
+			Millencium
+		</h1>
+        <div class="flex justify-center pt-3">
+            <img src={Logo} alt="Logo" class="rounded-lg justify-center" />
+        </div>
+		
+	</section>
 </div>

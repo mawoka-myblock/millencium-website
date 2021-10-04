@@ -82,6 +82,10 @@
 			>
 		</li> -->
 	</ul>
+	<div class="justify-self-end lg:flex hidden ">
+		<p class="text-lg font-medium text-gray-600 hover:text-red-600">IP:</p>
+		<code class="text-lg font-medium px-4 text-gray-600 hover:text-red-600">millencium.eu.org</code>
+	</div>
 </nav>
 
 <style>
