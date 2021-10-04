@@ -24,5 +24,8 @@
 		"svelte-preprocess": "^4.9.5",
 		"tailwindcss": "^2.2.16"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"atropos": "^0.9.6"
+	}
 }
