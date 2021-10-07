@@ -1,5 +1,5 @@
 <script>
-	import Logo from '../assets/LogoNoBG.png';
+	import Logo from '../assets/LogoNoBG.jpg';
 	let openMenu = true;
 	let closeMenu = false;
 	let menuItems = false;

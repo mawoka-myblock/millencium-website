@@ -7,13 +7,13 @@
 
 	// Import Swiper styles
 	import 'swiper/css';
-	import Screenshot1 from '../assets/2021-10-04_18.02.39.png';
-	import Screenshot2 from '../assets/2021-10-04_18.03.09.png';
-	import Screenshot3 from '../assets/2021-10-04_18.04.19.png';
-	import Screenshot4 from '../assets/2021-10-04_18.05.08.png';
-	import Screenshot5 from '../assets/2021-10-04_18.05.52.png';
-	import Screenshot6 from '../assets/2021-10-04_18.06.57.png';
-	import Screenshot7 from '../assets/2021-10-04_18.05.21.png';
+	import Screenshot1 from '../assets/2021-10-04_18.02.39.jpg';
+	import Screenshot2 from '../assets/2021-10-04_18.03.09.jpg';
+	import Screenshot3 from '../assets/2021-10-04_18.04.19.jpg';
+	import Screenshot4 from '../assets/2021-10-04_18.05.08.jpg';
+	import Screenshot5 from '../assets/2021-10-04_18.05.52.jpg';
+	import Screenshot6 from '../assets/2021-10-04_18.06.57.jpg';
+	import Screenshot7 from '../assets/2021-10-04_18.05.21.jpg';
 </script>
 
 <Swiper loop={true} effect={'cards'} autoplay='{{
