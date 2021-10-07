@@ -8,10 +8,12 @@
 	import DiscordSVG from '../assets/discord.svg';
 	import MawokaLink from '../components/MawokaLink.svelte';
 	import OpenGraphImage from "../assets/OpenGraph-Logo.png"
+	import Favicon from "../assets/favicon.png"
 </script>
 
 <svelte:head>
 	<!-- HTML Meta Tags -->
+	<link rel="shortcut icon" type="image/png" href={Favicon}>
 	<title>Millencium - 1.16.5 vanilla-minecraft-server with some tweaks</title>
 	<meta
 		name="description"
