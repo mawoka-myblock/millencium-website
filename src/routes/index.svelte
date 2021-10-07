@@ -7,10 +7,43 @@
 	import RedditSVG from '../assets/reddit.svg';
 	import DiscordSVG from '../assets/discord.svg';
 	import MawokaLink from '../components/MawokaLink.svelte';
+	import OpenGraphImage from "../assets/OpenGraph-Logo.png"
 </script>
 
 <svelte:head>
-	<title>Millencium - Home</title>
+	<!-- HTML Meta Tags -->
+	<title>Millencium - 1.16.5 vanilla-minecraft-server with some tweaks</title>
+	<meta
+		name="description"
+		content="Millencium is a vanill minecraft-server with some tweaks like an economy, a teleportation-system and a trading-system. Feel free to join our friendly community!"
+	/>
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://millencium.ru.org/" />
+	<meta property="og:type" content="website" />
+	<meta
+		property="og:title"
+		content="Millencium - 1.16.5 vanilla-minecraft-server with some tweaks"
+	/>
+	<meta
+		property="og:description"
+		content="Millencium is a vanill minecraft-server with some tweaks like an economy, a teleportation-system and a trading-system. Feel free to join our friendly community!"
+	/>
+	<meta property="og:image" content={OpenGraphImage} />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="byeindonesia.com" />
+	<meta property="twitter:url" content="https://millencium.ru.org/" />
+	<meta
+		name="twitter:title"
+		content="Millencium - 1.16.5 vanilla-minecraft-server with some tweaks"
+	/>
+	<meta
+		name="twitter:description"
+		content="Millencium is a vanill minecraft-server with some tweaks like an economy, a teleportation-system and a trading-system. Feel free to join our friendly community!"
+	/>
+	<meta name="twitter:image" content={OpenGraphImage} />
 </svelte:head>
 
 <div class="pt-16 lg:pt-24">
@@ -26,7 +59,7 @@
 	</div> -->
 	<section>
 		<h1
-			class="text-center text-3xl text-red-600 hover:text-red-800 transition duration-200 font-bold"
+			class="text-center text-3xl text-red-600 hover:text-red-800 transition duration-200 font-bold custom-font"
 		>
 			Millencium
 		</h1>
@@ -96,9 +129,10 @@
 		<div class="px-6 lg:px-96 pt-6">
 			<h1 class="lg:text-5xl text-3xl font-bold lg:ml-14">About The Staff</h1>
 			<p class="text-center my-2 lg:mx-20">
-				We, <MawokaLink utm_source="Millencium-About-Staff"/>, LeMustache and PinkBeard are the team. LeMustache is mainly responsible
-				for the Discord and in-game cheats and hacks. <MawokaLink utm_source="Millencium-About-Staff" /> is responsible for the technical
-				stuff and also in parts for LeMustache's parts.
+				We, <MawokaLink utm_source="Millencium-About-Staff" />, LeMustache and PinkBeard are the
+				team. LeMustache is mainly responsible for the Discord and in-game cheats and hacks. <MawokaLink
+					utm_source="Millencium-About-Staff"
+				/> is responsible for the technical stuff and also in parts for LeMustache's parts.
 			</p>
 		</div>
 	</section>

@@ -17,7 +17,7 @@
 	<!-- Our logo and button -->
 	<section class="w-full lg:w-max flex justify-between">
 		<!-- Logo -->
-		<span class="font-black tracking-tight text-xl text-red-600"> Millencium </span>
+		<span class="font-black tracking-tight text-l text-red-600 custom-font"> Millencium </span>
 
 		<!-- Our open/close buttons -->
 		<!-- Open menu -->
