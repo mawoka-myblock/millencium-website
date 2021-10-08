@@ -20,7 +20,7 @@
 	/>
 
 	<!-- Facebook Meta Tags -->
-	<meta property="og:url" content="https://millencium.eu.org/" />
+	<meta property="og:url" content="https://millencium.eu.org/?utm_campaign=socialmedia&utm_source=Facebook&utm_medium=Embed" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:title"
@@ -35,7 +35,7 @@
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta property="twitter:domain" content="byeindonesia.com" />
-	<meta property="twitter:url" content="https://millencium.eu.org/" />
+	<meta property="twitter:url" content="https://millencium.eu.org/?utm_campaign=socialmedia&utm_source=Twitter&utm_medium=Embed" />
 	<meta
 		name="twitter:title"
 		content="Millencium - 1.16.5 vanilla-minecraft-server with some tweaks"
