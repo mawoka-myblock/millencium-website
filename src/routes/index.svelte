@@ -3,7 +3,6 @@
 	import Atropos from 'atropos';
 	import JustBackgroundBig from '../assets/JustBackground.webp';
 	import LogoBig from '../assets/LogoNoBackground-CuttedToContent.webp';
-	import OpenGraphImage from "../assets/OpenGraph-Logo.webp"
 	import ImageCarousel from '../components/ImageCarousel.svelte';
 	import RedditSVG from '../assets/reddit.svg';
 	import DiscordSVG from '../assets/discord.svg';
@@ -31,7 +30,7 @@
 		property="og:description"
 		content="Millencium is a vanill minecraft-server with some tweaks like an economy, a teleportation-system and a trading-system. Feel free to join our friendly community!"
 	/>
-	<meta property="og:image" content={OpenGraphImage} />
+	<meta property="og:image" content="/OpenGraph-Logo.webp" />
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -45,7 +44,7 @@
 		name="twitter:description"
 		content="Millencium is a vanill minecraft-server with some tweaks like an economy, a teleportation-system and a trading-system. Feel free to join our friendly community!"
 	/>
-	<meta name="twitter:image" content={OpenGraphImage} />
+	<meta name="twitter:image" content="/OpenGraph-Logo.webp" />
 </svelte:head>
 
 <div class="pt-16 lg:pt-24">
