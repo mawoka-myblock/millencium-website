@@ -60,12 +60,12 @@
 	</div> -->
 	<section>
 		<h1
-			class="text-center text-3xl text-red-600 hover:text-red-800 transition duration-200 font-bold custom-font"
+			class="text-center text-3xl text-red-600 hover:text-red-800 transition duration-200 font-bold custom-font pt-2"
 		>
 			Millencium
 		</h1>
 		<div class="flex justify-center pt-3">
-			<img src={LogoBig} alt="Logo" class="rounded-lg justify-center filter" />
+			<img src={LogoBig} alt="Logo" class="rounded-lg justify-center filter lg:h-56 h-28" />
 		</div>
 	</section>
 
