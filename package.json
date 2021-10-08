@@ -25,10 +25,8 @@
 		"svelte": "^3.42.6",
 		"svelte-preprocess": "^4.9.5",
 		"swiper": "^7.0.8",
-		"tailwindcss": "^2.2.16"
-	},
-	"type": "module",
-	"dependencies": {
+		"tailwindcss": "^2.2.16",
 		"atropos": "^0.9.6"
-	}
+	},
+	"type": "module"
 }

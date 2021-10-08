@@ -20,14 +20,12 @@ specifiers:
   swiper: ^7.0.8
   tailwindcss: ^2.2.16
 
-dependencies:
-  atropos: 0.9.6
-
 devDependencies:
   '@fontsource/press-start-2p': 4.5.0
   '@small-tech/vite-plugin-sri': 1.0.1
   '@sveltejs/adapter-cloudflare-workers': 1.0.0-next.23
   '@sveltejs/kit': 1.0.0-next.180_svelte@3.43.1
+  atropos: 0.9.6
   autoprefixer: 10.3.6_postcss@8.3.8
   cssnano: 5.0.8_postcss@8.3.8
   eslint: 7.32.0
@@ -319,7 +317,7 @@ packages:
   /atropos/0.9.6:
     resolution: {integrity: sha512-LRl2m5+OnA90qDURCeVEYAHRGvK4+srZQ3XocNy2Ii4SqNz3AduNdtzuKHFWL1j1gUHi+rSHdeaH2GdZvMok7w==}
     engines: {node: '>= 12.0.0'}
-    dev: false
+    dev: true
 
   /autoprefixer/10.3.6_postcss@8.3.8:
     resolution: {integrity: sha512-3bDjTfF0MfZntwVCSd18XAT2Zndufh3Mep+mafbzdIQEeWbncVRUVDjH8/EPANV9Hq40seJ24QcYAyhUsFz7gQ==}
