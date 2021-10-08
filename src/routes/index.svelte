@@ -1,19 +1,19 @@
 <script>
 	import 'atropos/css';
 	import Atropos from 'atropos';
-	import JustBackground from '../assets/JustBackground.jpg';
-	import Logo from '../assets/LogoNoBackground-CuttedToContent.jpg';
+	import JustBackgroundBig from '../assets/JustBackground.webp';
+	import LogoBig from '../assets/LogoNoBackground-CuttedToContent.webp';
+	import OpenGraphImage from "../assets/OpenGraph-Logo.webp"
 	import ImageCarousel from '../components/ImageCarousel.svelte';
 	import RedditSVG from '../assets/reddit.svg';
 	import DiscordSVG from '../assets/discord.svg';
 	import MawokaLink from '../components/MawokaLink.svelte';
-	import OpenGraphImage from "../assets/OpenGraph-Logo.jpg"
-	import Favicon from "../assets/favicon.jpg"
+	import Favicon from "../assets/favicon.webp"
 </script>
 
 <svelte:head>
 	<!-- HTML Meta Tags -->
-	<link rel="shortcut icon" type="image/jpg" href={Favicon}>
+	<link rel="shortcut icon" type="image/webp" href={Favicon}>
 	<title>Millencium - 1.16.5 vanilla-minecraft-server with some tweaks</title>
 	<meta
 		name="description"
@@ -66,7 +66,7 @@
 			Millencium
 		</h1>
 		<div class="flex justify-center pt-3">
-			<img src={Logo} alt="Logo" class="rounded-lg justify-center filter" />
+			<img src={LogoBig} alt="Logo" class="rounded-lg justify-center filter" />
 		</div>
 	</section>
 
